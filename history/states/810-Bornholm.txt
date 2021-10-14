@@ -1,0 +1,21 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		6361 
+	}
+	state_category = rural
+	history={
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 4
+			6361 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
