@@ -1,0 +1,23 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		3631 6650 9627 
+	}
+	history={
+		owner = ITA
+		add_core_of = SLV
+		add_claim_by = AUS
+		victory_points = {
+			9627 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		656 6631 9598 11598 
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = AUS
+		victory_points = {
+			11598 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
