@@ -12,7 +12,7 @@ state={
 		#victory_points = {
 		#	513 1
 		#}
-		owner = POL
+		owner = UKR
 		buildings = {
 			infrastructure = 5
 
