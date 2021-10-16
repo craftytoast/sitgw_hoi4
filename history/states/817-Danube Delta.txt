@@ -1,0 +1,21 @@
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		687 
+	}
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+			687 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = ROM
+	}
+	state_category = rural
+	manpower=25000
+	buildings_max_level_factor=1.000
+}

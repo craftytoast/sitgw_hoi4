@@ -1,0 +1,19 @@
+state={
+	id=815
+	name="STATE_815"
+	provinces={
+		6643 11787 
+	}
+	history={
+		owner = HUN
+		add_core_of = SER
+		add_claim_by = YUG
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
