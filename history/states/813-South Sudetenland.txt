@@ -1,0 +1,19 @@
+state={
+	id=813
+	name="STATE_813"
+	provinces={
+		543 557 11525 
+	}
+	state_category = rural
+	history={
+		owner = AUS
+		add_core_of = AUS
+		add_claim_by = CZE
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

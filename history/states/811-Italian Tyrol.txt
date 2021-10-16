@@ -4,6 +4,7 @@ state={
 	provinces={
 		656 6631 9598 11598 
 	}
+	state_category = town
 	history={
 		owner = ITA
 		add_core_of = ITA
@@ -17,6 +18,6 @@ state={
 		}
 
 	}
-	manpower=0
+	manpower=150000
 	buildings_max_level_factor=1.000
 }
