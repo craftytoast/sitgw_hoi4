@@ -13,6 +13,10 @@ QDC = {
 	color_ui = rgb { 52 171 9 }
 }
 GEG = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+UFT = {
 	color = rgb { 38 38 37 }
 	color_ui = rgb { 38 38 37 }
 }
