@@ -229,6 +229,9 @@ ideologies = {
 
 			monarchy = {
 			}
+
+			military_leadership = {
+			}
 			
 		}
 		

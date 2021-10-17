@@ -1,5 +1,6 @@
 GER	= "countries/Germany.txt"
 GRA	= "countries/German Red Army.txt"
+GEF	= "countries/German Eastern Garrison.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"
