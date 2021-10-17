@@ -1,8 +1,8 @@
-﻿capital = 91 
+﻿capital = 743
 
 oob = "UKR_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -62,44 +62,24 @@ if = {
 
 
 set_politics = {
-	ruling_party = monarchist
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	monarchist = 100
+	socialist = 100
 }
 
 create_country_leader = {
-	name = "August von Mackensen"
+	name = "Placeholder"
 	desc = ""
 	picture = "gfx/leaders/GEG/Portrait_Germany_August_von_Mackensen.dds"
 	expire = "1953.3.1"
-	ideology = military_leadership
+	ideology = socialist_type
 	traits = {
 		
 	}
-}
-
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-
-	declare_war_on = {
-		target = UKR
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = POL
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = BLR
-		type = annex_everything
-	}
-	
 }
 
 

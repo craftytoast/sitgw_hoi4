@@ -9,14 +9,19 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = UKR
+		owner = GEG
 		buildings = {
 			infrastructure = 5
 			air_base = 3
 
 		}
 		add_core_of = UKR
-
+		1935.12.30 = {
+			UKR = {
+				set_province_controller = 11550
+				set_province_controller = 3743
+			}
+		}
 	}
 
 	provinces={

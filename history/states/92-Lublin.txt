@@ -6,7 +6,8 @@ state={
 		victory_points = {
 			11399 1 
 		}
-		owner = POL
+		owner = GEG 
+		add_core_of = GEG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

@@ -6,7 +6,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = UKR
+		owner = GEG
 		victory_points = {
 			11479 3
 		}
@@ -19,7 +19,14 @@ state={
 			air_base = 5
 		}
 		add_core_of = POL
+		add_core_of = GEG
 		add_core_of = UKR
+		1935.12.30 = {
+			UKR = {
+				set_province_controller = 3562
+				set_province_controller = 438
+			}
+		}
 	}
 
 	provinces={

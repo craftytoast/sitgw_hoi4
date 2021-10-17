@@ -8,6 +8,10 @@ GRA = {
 	color = rgb { 168 50 50 }
 	color_ui = rgb { 168 50 50 }
 }
+QDC = {
+	color = rgb { 52 171 9 }
+	color_ui = rgb { 52 171 9 }
+}
 GEG = {
 	color = rgb { 38 38 37 }
 	color_ui = rgb { 38 38 37 }

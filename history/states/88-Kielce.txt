@@ -22,6 +22,12 @@ state={
 
 		}
 		add_core_of = POL
+		1935.12.30 = {
+			GEG = {
+				set_province_controller = 3434
+				set_province_controller = 9494
+			}
+		}
 
 	}
 
