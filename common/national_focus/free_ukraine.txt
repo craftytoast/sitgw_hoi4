@@ -1,0 +1,58 @@
+﻿focus_tree = {
+	id = free_ukraine_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = UKR_ukrainian_war_of_salvation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = UKR_eastern_conscripts
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		cost = 2
+		prerequisite = {}
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_war_support = 0.01
+			add_political_power = -10
+			load_oob = "UKR_infantry_east"
+		}
+	}
+
+
+}

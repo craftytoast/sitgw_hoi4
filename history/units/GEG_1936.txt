@@ -48,7 +48,7 @@ units = {
 		location = 9425
 		division_template = "Conscript Division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.8
 	}
 	division= {	
 		division_name = {
@@ -59,6 +59,36 @@ units = {
 		division_template = "Conscript Division"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.8
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3434
+		division_template = "Conscript Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 9494
+		division_template = "Conscript Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9521
+		division_template = "Conscript Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
 	}
 }
 

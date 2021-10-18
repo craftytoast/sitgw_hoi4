@@ -8,7 +8,15 @@ GRA = {
 	color = rgb { 168 50 50 }
 	color_ui = rgb { 168 50 50 }
 }
+MOL = {
+	color = rgb { 255 255 95 }
+	color_ui = rgb { 255 255 95 }
+}
 QDC = {
+	color = rgb { 52 171 9 }
+	color_ui = rgb { 52 171 9 }
+}
+RSP = {
 	color = rgb { 52 171 9 }
 	color_ui = rgb { 52 171 9 }
 }
