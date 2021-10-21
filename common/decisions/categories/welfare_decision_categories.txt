@@ -1,0 +1,10 @@
+
+welfare_system = {
+	icon = generic_political_actions
+	visible_when_empty = yes
+	priority = 9
+	allowed = {
+		always = yes
+	}
+	picture = GFX_decision_cat_picture_gateway_to_europe
+}

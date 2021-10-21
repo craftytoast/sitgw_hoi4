@@ -1,0 +1,10 @@
+﻿l_english:
+ welfare_system:0 "Welfare System"
+ welfare_system_desc:0 "You need to keep Welfare high to avoid nasty debuffs. Current Wefare Rating -> [?welfare_rating|§Y0 ]"
+ develop_infrastructure:0 "Develop Infrastructure"
+ civilian_focus:0 "Civilian Goods Focus"
+ civilian_focus_desc:0 "Adds 1 Welfare Rating on Click, adds 3 more after 90 days"
+ wartime_industry:0 "Wartime Industry"
+ wartime_industry_desc:0 "Removes 1 Welfare Rating on Click, removes 3 more after 90 days"
+ odessa_works_completed:0 " Odessa Works Completed"
+ odessa_works_layed_down:0 " Odessa Works Layed Down"

@@ -1,0 +1,184 @@
+﻿division_template = {
+	name = "Conscript Division"
+	division_names_group = GER_INF_01
+
+	regiments = {
+		conscripts = { x = 0 y = 0 }
+		conscripts = { x = 0 y = 1 }
+		conscripts = { x = 0 y = 2 }
+        conscripts = { x = 1 y = 0 }
+		conscripts = { x = 1 y = 1 }
+		conscripts = { x = 1 y = 2 }
+        conscripts = { x = 2 y = 0 }
+		conscripts = { x = 2 y = 1 }
+		conscripts = { x = 2 y = 2 }
+	}
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+
+	}
+}
+division_template = {
+	name = "Panzer Division"
+	division_names_group = GER_INF_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {	
+		name = "1st Infanterie-Abteilung"
+		location = 3326
+		division_template = "Infantry Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "2nd Panzerabteilung"
+		location = 3271
+		division_template = "Panzer Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "3rd Infanterie-Abteilung"
+		location = 3395
+		division_template = "Infantry Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "11th Infanterie-Abteilung"
+		location = 374
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "12th Infanterie-Abteilung"
+		location = 6349
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4th Infanterie-Abteilung"
+		location = 6349
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 3395
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 3271
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Hamburg Garrison"
+		location = 9347
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 3500
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 3500
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 3326
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 11493
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Conscripts"
+		location = 6513
+		division_template = "Conscript Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Panzerabteilung"
+		location = 11493
+		division_template = "Panzer Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "2nd Infanterie-Abteilung"
+		location = 11493
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+}
+
+##### Wojska Lotnicze i Obrony Powietrzne #####
+air_wings = {
+
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	
+}

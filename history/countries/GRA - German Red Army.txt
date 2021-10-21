@@ -49,7 +49,10 @@ if = {
 }
 
 
-
+set_variable = {
+	var = welfare_rating
+	value = 69
+}
 
 set_research_slots = 3
 set_convoys = 50

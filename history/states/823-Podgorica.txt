@@ -1,0 +1,28 @@
+state={
+	id=823
+	name="STATE_823"
+	provinces={
+		9809 9821 
+	}
+	history={
+		victory_points = {
+			9809 3 
+		}
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = YUG
+
+	}
+	manpower=300000
+	state_category = town
+	buildings_max_level_factor=1.000
+}

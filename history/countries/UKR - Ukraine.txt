@@ -60,6 +60,16 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MOL
+		autonomous_state = autonomy_puppet
+	}
+}
+
 set_popularities = {
 	democratic = 20
 	fascism = 30
@@ -75,7 +85,6 @@ if = {
 		target = UFT
 		type = annex_everything
 	}
-	
 }
 
 create_country_leader = {

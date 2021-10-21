@@ -1,0 +1,148 @@
+ideas = {
+
+	country = {
+		atrocious_welfare = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+				production_speed_buildings_factor = -0.20
+			}
+		}
+
+		terrible_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.07
+				production_factory_max_efficiency_factor = -0.07
+				production_factory_efficiency_gain_factor = -0.07
+				production_speed_buildings_factor = -0.12
+			}
+		}
+		bad_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.10
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = -0.03
+				production_factory_max_efficiency_factor = -0.03
+				production_factory_efficiency_gain_factor = -0.03
+				production_speed_buildings_factor = -0.5
+			}
+		}
+		ok_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+
+			}
+		}
+		good_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.5
+				consumer_goods_factor = -0.02
+				industrial_capacity_factory = 0.03
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.03
+				production_speed_buildings_factor = 0.5
+			}
+		}
+		great_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.10
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		excellent_welfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.15
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.10
+				production_speed_buildings_factor = 0.15
+			}
+		}
+	}
+}
