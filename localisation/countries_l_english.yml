@@ -28,6 +28,12 @@
     MEN_fascism_ADJ:0 "Chinese"
     MEN_fascism_DEF:0 "Wang's Government"
 
+    FFR_democratic:0 "Free France"
+    FFR_democratic_ADJ:0 "French"
+    FFR_democratic_DEF:0 "Free France"
+    FFR:0 "Free France"
+    FFR_DEF:0 "Free France"
+    FFR_ADJ:0 "French"
 
 
 

@@ -64,13 +64,7 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-		
-			socialism = {
+			social_dem_type = {
 			}
 		}
 		
