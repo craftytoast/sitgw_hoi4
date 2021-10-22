@@ -1,0 +1,8 @@
+on_actions = {
+	# startup
+	on_startup = {
+        effect = {
+            GER = { news_event = { id = launch_events.1 } }
+        }
+    }
+}

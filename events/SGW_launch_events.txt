@@ -1,0 +1,19 @@
+﻿add_namespace = launch_events
+
+#First event (credits) - loaded on game startup
+news_event = {
+	id = launch_events.1
+	title = launch_events.1.t
+	desc = launch_events.1.desc
+	picture = GFX_news_event_051
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Start Game
+		name = launch_events.1.a
+	}
+}
+
+

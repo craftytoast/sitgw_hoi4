@@ -1,0 +1,29 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Ukrainian Armada"			
+		naval_base = 11670 # Odessa
+		task_force = {
+			name = "Ukrainian Armade"
+			location = 11670 # Odessa
+			ship = { name = "UKN Odessa" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = UKR version_name = "German Odessa-Class" } } }
+			ship = { name = "UKN Kiev" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UKR version_name = "German Kiev-Class" } } }
+			ship = { name = "UKN Stettin" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = UKR version_name = "German Kiev-Class" } } }
+			ship = { name = "UKN Danzig" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = UKR version_name = "German Danzig-Class" } } }
+			# Destroyer Flotilla no. 1
+			ship = { name = "UKN Lviv" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UKR version_name = "German Lviv-Class" } } }
+			ship = { name = "UKN Placeholder" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = UKR version_name = "German Lviv-Class" } } }
+			ship = { name = "UKN Vynnychenko" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = UKR version_name = "German Lviv-Class" } } }
+		}				
+		task_force = {				
+			name = "U-boat Flotilla"			
+			location = 11670 # Odessa
+			ship = { name = "U-509" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = UKR version_name = "German U-boat" } } }
+			ship = { name = "U-345" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = UKR version_name = "German U-boat" } } }
+			ship = { name = "U-506" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = UKR version_name = "German U-boat" } } }
+		}				
+	}
+} 
+

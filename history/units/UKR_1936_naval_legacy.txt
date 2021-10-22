@@ -1,0 +1,29 @@
+﻿
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Ukraine Armada"			
+		naval_base = 11670 # Odessa
+		task_force = {
+			name = "Ukraine Armada"
+			location = 12364 # Buenos Aires
+			ship = { name = "UKN Odessa" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "UKN Kiev" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UKR version_name = "Kiev Class" } } }
+			ship = { name = "UKN Stettin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UKR version_name = "Kiev Class" } } }
+			ship = { name = "UKN Danzig" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+			# Destroyer Flotilla no. 1
+			ship = { name = "UKN Lviv" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "UKN Placeholder" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "UKN Vynnychenko" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = UKR } } }
+		}				
+		task_force = {				
+			name = "U-Boat Flotilla"			
+			location = 11670 # Odessa
+			ship = { name = "U-509" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "U-345" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UKR } } }
+			ship = { name = "U-506" definition = submarine equipment = { submarine_2 = { amount = 1 owner = UKR } } }
+		}				
+	}
+} 
+
