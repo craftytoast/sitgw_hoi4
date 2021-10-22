@@ -1,3 +1,11 @@
+SIB = "countries/Siberia.txt"
+GUI = "countries/Guizhou.txt"
+HNC = "countries/Hunan Clique.txt"
+HUB = "countries/Hubei Clique.txt"
+GZC = "countries/Guangzhou Clique.txt"
+JIA = "countries/Jianxi Clique.txt"
+SIC = "countries/Sichuan.txt"
+
 GER	= "countries/Germany.txt"
 GRA	= "countries/German Red Army.txt"
 GEG	= "countries/German Eastern Garrison.txt"
