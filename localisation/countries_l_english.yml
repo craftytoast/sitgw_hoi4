@@ -1,4 +1,41 @@
 ﻿l_english:
+
+    SIC_neutrality:0 "Sichuan Clique"
+    SIC_neutrality_ADJ:0 "Chinese"
+    SIC_neutrality_DEF:0 "the Sichuan Clique"
+
+    GUI_communism:0 "Guizhou Army"
+    GUI_communism_ADJ:0 "Chinese"
+    GUI_communism_DEF:0 "the Guizhou Army"
+
+    HNC_democratic:0 "Hunan Clique"
+    HNC_democratic_ADJ:0 "Chinese"
+    HNC_democratic_DEF:0 "the Hunan Clique"
+
+    JIA_communism:0 "Jianxi Clique"
+    JIA_communism_ADJ:0 "Chinese"
+    JIA_communism_DEF:0 "the Jianxi Clique"
+
+    HUB_democratic:0 "Hubei Clique"
+    HUB_democratic_ADJ:0 "Chinese"
+    HUB_democratic_DEF:0 "the Hubei Clique"
+
+    GZC_democratic:0 "Guangzhou Clique"
+    GZC_democratic_ADJ:0 "Chinese"
+    GZC_democratic_DEF:0 "the Guangzhou Clique"
+
+    MEN_fascism:0 "Wang's Government"
+    MEN_fascism_ADJ:0 "Chinese"
+    MEN_fascism_DEF:0 "Wang's Government"
+
+
+
+
+
+
+
+
+
     ADU_monarchist:0 "Andalusia"
     ADU_monarchist_ADJ:0 "Andalusian"
     ADU_monarchist_DEF:0 "Kingdom of Andalusia"
@@ -1915,8 +1952,8 @@
  GRA_ADJ:0 "German"
  ENG_fascism:0 "British Empire"
  ENG_fascism_DEF:0 "the British Empire"
- ENG_democratic:0 "United Kingdom of Great Britain"
- ENG_democratic_DEF:0 "the United Kingdom of Great Britain"
+ ENG_democratic:0 "United Kingdom"
+ ENG_democratic_DEF:0 "the United Kingdom"
  ENG_neutrality:0 "Great Britain"
  ENG_neutrality_DEF:0 "Great Britain"
  ENG_communism:0 "Union of Britain"
@@ -2774,12 +2811,12 @@
  SIK_democratic_DEF:0 "the Sinkiang Independent Republic"
  SIK_neutrality:0 "State of Sinkiang"
  SIK_neutrality_DEF:0 "State of Sinkiang"
- SIK_communism:0 "Sinkiang"
- SIK_communism_DEF:0 "Sinkiang"
+ SIK_communism:0 "Republic of East Turkestan"
+ SIK_communism_DEF:0 "Republic of East Turkestan"
  SIK_fascism_ADJ:0 "Sinkiang"
  SIK_democratic_ADJ:0 "Sinkiang"
  SIK_neutrality_ADJ:0 "Sinkiang"
- SIK_communism_ADJ:0 "Sinkiang"
+ SIK_communism_ADJ:0 "Republic of East Turkestan"
  SIK:0 "Sinkiang"
  SIK_DEF:0 "Sinkiang"
  SIK_ADJ:0 "Sinkiang"
@@ -3087,8 +3124,8 @@
  XSM_fascism_DEF:0 "the Xibei San Ma Free State"
  XSM_democratic:0 "Hui Republic"
  XSM_democratic_DEF:0 "the Hui Republic"
- XSM_neutrality:0 "Xibei San Ma"
- XSM_neutrality_DEF:0 "Xibei San Ma"
+ XSM_neutrality:0 "Ma"
+ XSM_neutrality_DEF:0 "Ma"
  XSM_communism:0 "People's Republic of Ma"
  XSM_communism_DEF:0 "the People's Republic of Ma"
  XSM_fascism_ADJ:0 "Ma"
@@ -3098,15 +3135,12 @@
  XSM:0 "Xibei San Ma"
  XSM_DEF:0 "Xibei San Ma"
  XSM_ADJ:0 "Ma"
- MEN_fascism:0 "Mengkukuo"
- MEN_fascism_DEF:0 "Mengkukuo"
  MEN_democratic:0 "Republic of Mengjiang"
  MEN_democratic_DEF:0 "the Republic of Mengjiang"
  MEN_neutrality:0 "Mengjiang"
  MEN_neutrality_DEF:0 "Mengjiang"
  MEN_communism:0 "People's Mengjiang"
  MEN_communism_DEF:0 "the People's Mengjiang"
- MEN_fascism_ADJ:0 "Mengjiang"
  MEN_democratic_ADJ:0 "Mengjiang"
  MEN_neutrality_ADJ:0 "Mengjiang"
  MEN_communism_ADJ:0 "Mengjiang"
