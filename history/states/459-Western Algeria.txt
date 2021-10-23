@@ -15,13 +15,15 @@ state={
 		add_core_of = FFR
 
 		victory_points = {
-			1145 5 
+			1145 15
 		}
 		victory_points = {
 			7132 5 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 5
 			1145 = {
 				naval_base = 2

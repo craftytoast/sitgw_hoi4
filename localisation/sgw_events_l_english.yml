@@ -2,3 +2,13 @@
  launch_events.1.t:0 "Credits"
  launch_events.1.desc:0 "Stalemate in the Great War Credits:\n\nCh - Mod Creator\nCraftyToast - Head Coder\nPlex - East Asia Coder\nGogomonow - GFX\nALMAZ157 - GFX"
  launch_events.1.a:0 "Acknowledged"
+ french_republic.1.t:0 "Tunisian Resistance Leader Killed"
+ french_republic.1.d:0 "Our plan to assassinate a Tunisian Resistance Leader has worked."
+ french_republic.1.a:0 "Vive la France!"
+ french_republic.2.t:0 "Assassination Attempt didn't follow through"
+ french_republic.2.d:0 "Our assassins have informed us that they didn't get a chance to try to assassinate a Tunisian Resistance Leader."
+ french_republic.2.a:0 "Get them back out there!"
+ french_republic.3.t:0 "Tunisian Resistance Leader Survives assassination attempt"
+ french_republic.3.d:0 "Our plan to assassinate a Tunisian Resistance Leader has failed, and now resistance has ramped up in severity."
+ french_republic.3.a:0 "Not good"
+ 

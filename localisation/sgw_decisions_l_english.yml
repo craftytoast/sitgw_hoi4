@@ -6,3 +6,7 @@
  wartime_industry:0 "Wartime Industry"
  develop_industry:0 "Develop Industry"
  emergency_war_conversions:0 "Emergency Wartime Conversions"
+ ffr_tunisian_resistance:0 "Tunisian Resistance"
+ ffr_tunisian_resistance_desc:0 "Tunisian Resistance Level -> [?tunisian_resistance_level|§Y0 ]"
+ develop_infrastructure_in_tunisia:0 "Develop Infrastructure in Tunisia"
+ eliminate_tun_resistance_leaders:0 "Eliminate Tunisian Resistance Leaders"
