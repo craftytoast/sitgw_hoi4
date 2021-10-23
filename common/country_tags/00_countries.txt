@@ -5,6 +5,7 @@ HUB = "countries/Hubei Clique.txt"
 GZC = "countries/Guangzhou Clique.txt"
 JIA = "countries/Jianxi Clique.txt"
 SIC = "countries/Sichuan.txt"
+FFR	= "countries/Free France.txt"
 
 GER	= "countries/Germany.txt"
 GRA	= "countries/German Red Army.txt"

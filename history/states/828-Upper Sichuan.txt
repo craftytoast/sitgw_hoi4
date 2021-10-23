@@ -1,0 +1,13 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		1367 1893 2030 2091 5048 7256 8026 10132 10144 11865 12274 12767 
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

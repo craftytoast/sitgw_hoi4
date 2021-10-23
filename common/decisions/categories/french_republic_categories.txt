@@ -1,0 +1,9 @@
+
+ffr_tunisian_resistance = {
+	icon = power_struggle
+	visible_when_empty = yes
+	priority = 9
+	allowed = {
+		original_tag = FFR
+	}
+}

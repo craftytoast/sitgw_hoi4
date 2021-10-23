@@ -1,0 +1,52 @@
+﻿###########################
+# French Events
+###########################
+
+add_namespace = french_republic
+
+# TUN Resistance Leader Killed
+country_event = {
+	id = french_republic.1
+	title = french_republic.1.t
+	desc = french_republic.1.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = { # Acknowledged
+		name = french_republic.1.a
+		add_political_power = 5
+	}
+	
+}
+
+# TUN Resistance Leader Assassination Didn't follow through
+country_event = {
+	id = french_republic.2
+	title = french_republic.2.t
+	desc = french_republic.2.d
+	picture = GFX_report_event_french_resistance_02
+	
+	is_triggered_only = yes
+	
+	option = { # Acknowledged
+		name = french_republic.2.a
+	}
+	
+}
+
+# TUN Resistance Leader Assassination Failed
+country_event = {
+	id = french_republic.3
+	title = french_republic.3.t
+	desc = french_republic.3.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = { # Acknowledged
+		name = french_republic.3.a
+		add_political_power = -5
+	}
+	
+}

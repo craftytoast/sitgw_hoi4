@@ -1,0 +1,14 @@
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		4783 7727 7803 8102 10770 10899 
+	}
+	history={
+		owner = MON
+		add_core_of = MON
+	}
+	state_category = rural
+	manpower=25000
+	buildings_max_level_factor=1.000
+}

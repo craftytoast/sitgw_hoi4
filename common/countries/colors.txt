@@ -10,6 +10,11 @@ SIC = {
 	color_ui = rgb {224 235 244}
 } 
 
+TUN = {
+	color = rgb { 62 99 193 }
+	color_ui = rgb { 62 99 193 }
+} 
+
 GUI = {
 	color = rgb { 252 140 89 }
 	color_ui = rgb { 252 140 89 }
@@ -35,7 +40,10 @@ GZC = {
 	color_ui = rgb { 223 194 125 }
 }
 
-
+FFR = {
+	color = rgb { 62 99 193 }
+	color_ui = rgb { 62 99 193 }
+}
 
 
 GER = {
