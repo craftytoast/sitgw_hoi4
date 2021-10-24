@@ -97,6 +97,33 @@ welfare_system = {
         }
     }
 
+    begin_eco_crisis_recovery = {
+
+        icon = ger_military_buildup
+
+        only_fire_once = yes
+
+        visible = {
+            has_country_flag = ongoing_economic_crisis
+        }
+        available = {
+            has_country_flag = ongoing_economic_crisis
+        }
+
+        cost = 10
+
+        complete_effect = {
+            add_ideas = black_tuesday_recovery
+            subtract_from_variable = { welfare_rating = 3 }
+            clamp_variable = {
+	            var = welfare_rating
+	            min = 0
+	            max = 100
+            }
+        }
+
+    }
+
     civilian_focus = {
         
         icon = generic_industry

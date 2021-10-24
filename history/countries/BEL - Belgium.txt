@@ -28,9 +28,9 @@ set_politics = {
 }
 
 set_popularities = {
-	liberal = 83
-	fascism = 6
-	social_dem_type = 11
+	liberal = 85
+	fascism = 5
+	social_democratic = 10 
 }
 
 set_convoys = 80

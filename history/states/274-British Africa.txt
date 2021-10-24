@@ -3,7 +3,8 @@ state={
 	name="STATE_274"
 
 	history={
-		owner = ENG
+		owner = NGA
+		add_core_of = NGA
 		add_core_of = GHA
 		victory_points = {
 			10862 1 

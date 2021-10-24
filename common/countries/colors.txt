@@ -8,7 +8,7 @@ SIC = {
 TUN = {
 	color = rgb { 62 99 193 }
 	color_ui = rgb { 62 99 193 }
-} 
+}
 
 GUI = {
 	color = rgb { 252 140 89 }

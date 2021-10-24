@@ -1,0 +1,44 @@
+bookmarks = {
+	bookmark = {
+		name = "SITGW_NAME"
+		desc = "SITGW_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_SITGW_DESC"
+			ideology = monarchist
+			ideas = {
+				black_tuesday_ger
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_SITGW_DESC"
+		}
+
+
+		# minors from DLC ####
+		"GEG"={
+			minor = yes
+			history = "GEG_SITGW_DESC"
+			ideology = monarchist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

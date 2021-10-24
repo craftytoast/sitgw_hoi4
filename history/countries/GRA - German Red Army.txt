@@ -51,7 +51,11 @@ if = {
 
 set_variable = {
 	var = welfare_rating
-	value = 69
+	value = 44
+}
+
+add_ideas = {
+	black_tuesday_ger
 }
 
 set_research_slots = 3

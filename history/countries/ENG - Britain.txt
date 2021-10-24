@@ -117,12 +117,11 @@ if = {
 	}
 }
 
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
 add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+	black_tuesday_eng
 }
 	
 
@@ -138,6 +137,10 @@ if = {
 	}
 	set_autonomy = {
 		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = NGA
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
@@ -178,6 +181,8 @@ if = {
 	else = {
 		puppet = MAL
 		puppet = RAJ
+		puppet = EGY
+		puppet = NGA
 	}
 }
 
@@ -188,16 +193,27 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+# Setup for welfare_rating
+set_variable = {
+	var = welfare_rating
+	value = 51
+}
+
+set_country_flag = ongoing_economic_crisis
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
+	conservative = 35
+	liberal = 50
 	communism = 1
+	social_democratic = 4
+	socialist = 6
+	monarchist = 4
 }
 
 
@@ -234,7 +250,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = conservative_type
 	traits = {
 		conservative_grandee
 	}

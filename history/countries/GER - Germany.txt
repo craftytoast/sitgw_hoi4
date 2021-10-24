@@ -128,20 +128,17 @@ set_popularities = {
 
 set_variable = {
 	var = welfare_rating
-	value = 64
+	value = 39
 }
 
-clamp_variable = {
-	var = welfare_rating
-	min = 0
-	max = 100
-}
+set_country_flag = ongoing_economic_crisis
 
 add_ideas = {
 	general_staff
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
+	war_economy
+	black_tuesday_ger
 }
 
 create_country_leader = {

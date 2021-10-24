@@ -9,7 +9,7 @@ state={
 		rubber=2 # was: 3
 	}
 	history={
-		owner = ENG
+		owner = NGA
 		add_core_of = NGA
 		buildings = {
 			infrastructure = 3
@@ -20,7 +20,7 @@ state={
 			}
 		}
 		victory_points = {
-			2050 1
+			2050 10
 		}
 
 	}

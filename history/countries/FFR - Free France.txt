@@ -43,6 +43,15 @@ set_variable = {
 	var = tunisian_resistance_level
 	value = 50
 }
+set_variable = {
+	var = algerian_compliance_level
+	value = 75
+}
+set_variable = {
+	var = welfare_rating
+	value = 38
+}
+
 
 set_politics = {
 	ruling_party = democratic
