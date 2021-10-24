@@ -1,5 +1,10 @@
 #reload countrycolors
 
+SIB = {
+	color = rgb {236 231 242}
+	color_ui = rgb {236 231 242}
+}
+
 SIC = {
 	color = rgb {224 235 244}
 	color_ui = rgb {224 235 244}

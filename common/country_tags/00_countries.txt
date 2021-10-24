@@ -1,3 +1,4 @@
+SIB = "countries/Siberia.txt"
 GUI = "countries/Guizhou.txt"
 HNC = "countries/Hunan Clique.txt"
 HUB = "countries/Hubei Clique.txt"
