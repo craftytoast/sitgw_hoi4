@@ -1,6 +1,6 @@
-﻿capital = 743
+﻿capital = 605
 
-oob = "UKR_1936"
+oob = "SIC_1936"
 
 set_research_slots = 2
 
@@ -62,13 +62,13 @@ if = {
 
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	socialist = 100
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/GEG/Portrait_Germany_August_von_Mackensen.dds"
 	expire = "1953.3.1"
-	ideology = socialist_type
+	ideology = anarchist_communism
 	traits = {
 		
 	}
