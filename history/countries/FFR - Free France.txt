@@ -35,7 +35,10 @@ if = {
 	}
 	set_autonomy = {
 		target = TUN
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = TUN
 	}
 }
 
@@ -52,15 +55,23 @@ set_variable = {
 	value = 38
 }
 
+add_ideas = {
+	black_tuesday_afr
+}
+
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	conservative = 48
+	liberal = 32
+	fascism = 9
+	monarchist = 3
+	despotism = 8
 }
 
 
@@ -69,44 +80,33 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/FFR/Portrait_FFR_Charles_de_Gaulle.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative_type
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
+	name = "Henri Giraud"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
+	picture = "gfx/leaders/FFR/portrait_france_henri_giraud.dds"
+	expire = "1949.3.1"
+	ideology = military_junta
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
+create_corps_commander = {
+	name = "Maxime Weygand"
+	picture = "gfx/leaders/FFR/Portrait_France_Maxime_Weygand.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
 
 
 

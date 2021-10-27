@@ -494,14 +494,11 @@ ideologies = {
 	
 		types = {
 		
-			#absolute_monarchy = {
-			#}
-	
-			#monarchy = {
-			#}
-	
-			#military_leadership = {
-			#}
+			despotic = {
+			}
+
+			military_junta = {
+			}
 			
 		}
 		

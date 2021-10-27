@@ -5,4 +5,9 @@ on_actions = {
             GER = { news_event = { id = launch_events.1 } }
         }
     }
+    on_startup = {
+        effect = {
+            FFR = { country_event = { id = french_republic.6 } }
+        }
+    }
 }

@@ -72,9 +72,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Nestor Makhno"
 	desc = ""
-	picture = "gfx/leaders/GEG/Portrait_Germany_August_von_Mackensen.dds"
+	picture = "gfx/leaders/UFT/Nestor_Makhno.dds"
 	expire = "1953.3.1"
 	ideology = anarchist_communism
 	traits = {

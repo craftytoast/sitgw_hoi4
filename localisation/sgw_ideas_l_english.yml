@@ -1,6 +1,11 @@
 ﻿l_english:
  black_tuesday_ger:0 "Aftermath of Black Tuesday"
- black_tuesday_ger_desc:0 "Placeholder"
- black_tuesday_recovery:0 "Black Tuesday Recovery"
-
+ black_tuesday_eng:0 "Aftermath of Black Tuesday"
+ black_tuesday_usa:0 "Aftermath of Black Tuesday"
+ black_tuesday_afr:0 "Aftermath of Black Tuesday"
+ black_tuesday_recovery:0 "Black Tuesday Recovery Plan"
+ FFR_frac:0 "French-Algerian Railway Corporation"
+ FFR_growth_plan:0 "Industrial Growth Plan"
+ FFR_army_reform1:0 "Army Reforms"
+ FFR_army_reform2:0 "Army Reforms - Mobile Warfare"
  

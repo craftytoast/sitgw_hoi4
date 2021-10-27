@@ -34,6 +34,10 @@ welfare_system = {
 
         days_remove = 90
 
+        available = {
+            num_of_available_civilian_factories > 4
+        }
+
         complete_effect = {
             add_to_variable = { welfare_rating = +1 }
             clamp_variable = {
@@ -136,7 +140,7 @@ welfare_system = {
             has_war = no
         }
         complete_effect = {
-            add_to_variable = { welfare_rating = +1 }
+            add_to_variable = { welfare_rating = +3 }
             clamp_variable = {
 	            var = welfare_rating
 	            min = 0

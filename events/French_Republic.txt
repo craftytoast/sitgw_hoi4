@@ -50,3 +50,57 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = french_republic.4
+	title = french_republic.4.t
+	desc = french_republic.4.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = { # Acknowledged
+		name = french_republic.4.a
+		add_political_power = 1
+	}
+	
+}
+
+country_event = {
+	id = french_republic.5
+	title = french_republic.5.t
+	desc = french_republic.5.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = { # de Gaulles Plan / Moblie Warfare
+		name = french_republic.5.a
+		add_political_power = -5
+		set_country_flag = de_gaulles_plan_picked
+	}
+	
+	option = { # Girauds Plan / Trench Warfare
+		name = french_republic.5.b
+		set_country_flag = girauds_plan_picked
+	}
+}
+
+country_event = {
+	id = french_republic.6
+	title = french_republic.6.t
+	desc = french_republic.6.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = { # Mon Dieu!
+		name = french_republic.6.a
+		add_political_power = -15
+		set_country_flag = de_gaulle_assassination
+		set_politics = {
+			ruling_party = despotism
+			elections_allowed = no
+		}
+	}
+}

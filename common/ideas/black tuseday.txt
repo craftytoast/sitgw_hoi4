@@ -29,6 +29,34 @@ ideas = {
 			}
 		}
 
+		black_tuesday_afr = {
+			
+			picture = great_depression
+
+			allowed = {
+				original_tag = FFR
+				original_tag = MOR
+				original_tag = SAF 
+				original_tag = EGY
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.2
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_buildings_factor = -0.10
+			}
+		}
+
 		black_tuesday_eng = {
 			
 			picture = great_depression
