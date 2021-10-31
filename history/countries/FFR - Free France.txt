@@ -57,6 +57,7 @@ set_variable = {
 
 add_ideas = {
 	black_tuesday_afr
+	FFR_undeveloped_railways
 }
 
 
@@ -82,18 +83,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = conservative_type
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Henri Giraud"
-	desc = ""
-	picture = "gfx/leaders/FFR/portrait_france_henri_giraud.dds"
-	expire = "1949.3.1"
-	ideology = military_junta
-	traits = {
-		
+		pr_ffr
 	}
 }
 

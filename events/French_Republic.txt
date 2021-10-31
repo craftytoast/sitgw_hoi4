@@ -51,6 +51,7 @@ country_event = {
 	
 }
 
+# FARC founded
 country_event = {
 	id = french_republic.4
 	title = french_republic.4.t
@@ -58,8 +59,9 @@ country_event = {
 	picture = GFX_report_event_french_resistance_01
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
-	option = { # Acknowledged
+	option = { # This is worth investing in
 		name = french_republic.4.a
 		add_political_power = 1
 	}
@@ -73,16 +75,19 @@ country_event = {
 	picture = GFX_report_event_french_resistance_01
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { # de Gaulles Plan / Moblie Warfare
 		name = french_republic.5.a
 		add_political_power = -5
 		set_country_flag = de_gaulles_plan_picked
+		complete_national_focus = FFR_de_gaulles_plan
 	}
 	
 	option = { # Girauds Plan / Trench Warfare
 		name = french_republic.5.b
 		set_country_flag = girauds_plan_picked
+		complete_national_focus = FFR_girauds_plan
 	}
 }
 
@@ -93,14 +98,144 @@ country_event = {
 	picture = GFX_report_event_french_resistance_01
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { # Mon Dieu!
 		name = french_republic.6.a
 		add_political_power = -15
-		set_country_flag = de_gaulle_assassination
+		set_country_flag = de_gaulle_assassination_attempt
 		set_politics = {
 			ruling_party = despotism
 			elections_allowed = no
 		}
+		create_country_leader = {
+			name = "Henri Giraud"
+			desc = ""
+			picture = "gfx/leaders/FFR/portrait_france_henri_giraud.dds"
+			expire = "1949.3.1"
+			ideology = military_junta
+			traits = {
+				pm_ffr
+			}
+		}
 	}
+}
+
+# Tunisian Nationals attack patrol
+country_event = {
+	id = french_republic.7
+	title = french_republic.7.t
+	desc = french_republic.7.d
+	picture = GFX_report_event_french_tanks
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		country_event = {
+			id = french_republic.9 days = 20
+		}
+	}
+	
+	option = { # After them!
+		name = french_republic.7.a
+		add_political_power = -1
+		add_manpower = -89
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+    		amount = -24
+		}
+	}
+}
+
+# Tunisian National Council Formed
+country_event = {
+	id = french_republic.8
+	title = french_republic.8.t
+	desc = french_republic.8.d
+	picture = GFX_report_event_generic_communist_congress
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		country_event = {
+			id = french_republic.9 days = 5
+		}
+	}
+	
+	option = { # God! Send men to Tunisia!
+		name = french_republic.8.a
+		add_political_power = -3
+		add_manpower = -5000
+		TUN = {
+			add_manpower = 5000
+		}
+	}
+	
+}
+
+# Martial Law in Tunisia
+country_event = {
+	id = french_republic.9
+	title = french_republic.9.t
+	desc = french_republic.9.d
+	picture = GFX_report_event_soldiers_marching
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		country_event = {
+			id = french_republic.10 days = 3
+		}
+	}
+
+	option = { # Order needs to return!
+		name = french_republic.9.a
+		add_political_power = -1
+		add_manpower = -5000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+    		amount = -200
+		}
+	}
+	
+}
+
+# Bizerte Conference
+country_event = {
+	id = french_republic.10
+	title = french_republic.10.t
+	desc = french_republic.10.d
+	picture = GFX_report_event_generic_conference
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # Abandon Tunisia
+		name = french_republic.10.a
+		ai_chance = {
+			base = 10
+		}
+		end_puppet = TUN
+		TUN = {
+			create_country_leader = {
+			name = "Junta of Liberation"
+			desc = ""
+			picture = "gfx/leaders/TUN/portrait_tun_military_junta.dds"
+			expire = "1949.3.1"
+			ideology = military_junta
+			traits = {
+				
+			}
+		}
+	}
+	option = { # We won't go down without a fight
+		name = french_republic.10.b
+		ai_chance = {
+			base = 90
+		}
+	}
+	
 }

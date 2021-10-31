@@ -16,4 +16,33 @@ news_event = {
 	}
 }
 
+country_event = { # Setting up Tunisian Civil War Event Tree
+	id = launch_events.2
+	title = launch_events.2.t
+	desc = launch_events.2.d
+	picture = GFX_report_event_french_tanks
+
+	fire_only_once = yes
+
+	hidden = yes 
+	
+	trigger = {
+		tag = FFR
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		country_event = {
+			id = french_republic.7 days = 5
+		}
+	}
+
+	option = {
+		name = launch_events.2.a
+	}
+}
+
 

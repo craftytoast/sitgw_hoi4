@@ -309,30 +309,12 @@
 	            max = 100
             }
 			460 = {
-                limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
 				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
             }
 			459 = {
-                limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
 				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
             }
 			458 = {
-                limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
 				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
             }
 		}
@@ -461,11 +443,11 @@
 
 	# de Gaulle Military Branch
 	focus = {
-		id = FFR_tank_designs
-		icon = GFX_goal_generic_army_tanks
+		id = FFR_mot_designs
+		icon = GFX_goal_generic_army_motorized
 		x = 10
 		y = 3
-		cost = 4
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
@@ -477,14 +459,38 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = FFR_tank_designs_bonus
+				name = FFR_mot_bonus
 				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
-				category = armor
-				category = motorized_equipment
+				category = motorized
 			}
-			add_political_power = -5
+		}
+	}
+	
+	focus = {
+		id = FFR_tank_designs
+		icon = GFX_goal_generic_army_tanks
+		x = 10
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		prerequisite = { focus = FFR_mot_designs }
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = FFR_tank_designs_bonus
+				bonus = 1.50
+				ahead_reduction = 1
+				uses = 1
+				category = armor
+			}
 		}
 	}
 
@@ -509,6 +515,59 @@
   				add_idea = FFR_army_reform2
 			}
 			add_political_power = -5
+		}
+	}
+
+	focus = {
+		id = FFR_motorization_of_army
+		icon = GFX_focus_generic_combined_arms
+		x = 12
+		y = 5
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+		prerequisite = { focus = FFR_armor_focused_reforms }
+		prerequisite = { focus = FFR_mot_designs }
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_REFORMS }
+
+		completion_reward = {
+			add_political_power = -3
+		}
+	}
+
+	focus = {
+		id = FFR_tank_prod
+		icon = GFX_focus_generic_tank_production
+		x = 9
+		y = 5
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+
+
+		prerequisite = {
+			focus = FFR_new_factories
+			focus = FFR_tank_designs
+		}	
+
+		available = {
+			has_country_flag = de_gaulles_plan_picked
+		}
+
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+                add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				add_extra_state_shared_building_slots = 1
+            }
 		}
 	}
 }

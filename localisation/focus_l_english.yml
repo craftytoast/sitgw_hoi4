@@ -31,10 +31,16 @@
  FFR_tt_bypass_giraud_plan:0 "§CThis focus will be able to be bypassed and unlock the rest of the branch if you pick Henri Girauds military rearmament plan!§!"
  girauds_plan_picked:0 "Henri Girauds Plan is Picked"
  FFR_tank_designs:0 "Tank Designs"
- FFR_tank_designs_desc:0 "de Gaulle wants our best engineers to look into better and updated tanks and motorized technologies"
+ FFR_tank_designs_desc:0 "de Gaulle wants our best engineers to look into better and updated tank designs"
  FFR_new_factories:0 "New Factories"
  FFR_new_factories_desc:0 "New Factories are required to make equipment to fuel our new armies. It's worth taking some time to invest in some factories"
  FFR_armor_focused_reforms:0 "Mobile Warfare-based Reforms"
+ FFR_mot_designs:0 "Motorization Technologies"
+ FFR_mot_designs_desc:0 "de Gaulle wants our best engineers to look into better and updated motorized technologies"
+ FFR_motorization_of_army:0 "Motorization of the Army"
+ FFR_motorization_of_army_desc:0 "Motorization of the Army"
+ FFR_tank_prod:0 "Tank Production"
+ FFR_tank_prod_desc:0 "Tank Production"
 
 
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"

@@ -5,9 +5,23 @@ on_actions = {
             GER = { news_event = { id = launch_events.1 } }
         }
     }
+    # FFR/TUN Events
     on_startup = {
         effect = {
-            FFR = { country_event = { id = french_republic.6 } }
+            458 = {  #Add a full garrison to Tunisia and initialize the proper resistance/compliance values
+				force_enable_resistance = TUN
+				start_resistance = yes
+				set_resistance = 29
+				set_compliance = 9
+				set_garrison_strength = 0.8
+			}
+            665 = {  #Add a full garrison to Gabes and initialize the proper resistance/compliance values
+				force_enable_resistance = TUN
+				start_resistance = yes
+				set_resistance = 32
+				set_compliance = 9
+				set_garrison_strength = 0.8
+			}
         }
     }
 }

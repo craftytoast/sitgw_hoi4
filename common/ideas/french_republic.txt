@@ -25,6 +25,28 @@ ideas = {
 			}
 		}
 
+		FFR_undeveloped_railways = {
+
+			allowed = {
+				original_tag = FFR
+				original_tag = TUN
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+			
+			modifier = {
+				political_power_gain = -0.02
+				supply_consumption_factor = 0.2
+			}
+		}
+
 		FFR_growth_plan = {
 
 			allowed = {
@@ -89,6 +111,33 @@ ideas = {
 				army_defence_factor = 0.05
 				army_org_factor = 0.04
 				army_fuel_consumption_factor = -0.03
+			}
+		}
+	}
+
+	# Military
+	army_chief = {
+		
+		FFR_charle_de_gaulle = {
+			picture = charles_de_gaulle
+			
+			allowed = {
+				original_tag = FFR
+				always = no
+			}
+			
+			available = {
+				NOT = {
+					has_country_flag = de_gaulle_exiled
+				}
+			}
+			
+			traits = { army_armored_3 }
+			traits = { army_chief_maneuver_1 }
+			traits = { army_chief_reform_1 }
+			
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

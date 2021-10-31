@@ -1,9 +1,12 @@
 ﻿l_english:
+ pm_ffr:0 "Prime Minister of the French Republic"
+ pr_ffr:0 "President of the French Republic"
  black_tuesday_ger:0 "Aftermath of Black Tuesday"
  black_tuesday_eng:0 "Aftermath of Black Tuesday"
  black_tuesday_usa:0 "Aftermath of Black Tuesday"
  black_tuesday_afr:0 "Aftermath of Black Tuesday"
  black_tuesday_recovery:0 "Black Tuesday Recovery Plan"
+ FFR_undeveloped_railways:0 "Undeveloped Railways"
  FFR_frac:0 "French-Algerian Railway Corporation"
  FFR_growth_plan:0 "Industrial Growth Plan"
  FFR_army_reform1:0 "Army Reforms"

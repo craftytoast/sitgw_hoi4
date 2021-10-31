@@ -1,0 +1,32 @@
+﻿capital = 458
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+add_ideas = {
+	FFR_undeveloped_railways
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despotism = 100
+}
+
+create_country_leader = {
+	name = "Marcel Peyrouton"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	ideology = despotic
+	traits = {
+		#
+	}
+}
